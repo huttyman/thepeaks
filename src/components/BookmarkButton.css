@@ -1,0 +1,9 @@
+.bookmark-button {
+    background-color: var(--main-color);
+    color: white;
+    padding: 0.3rem;
+    border-radius: 0.2rem;
+    border: 0.1rem solid var(--main-color);
+    font: 14px;
+    cursor: pointer;
+}

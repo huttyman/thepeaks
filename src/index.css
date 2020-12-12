@@ -1,13 +1,36 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+        "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+        "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+        monospace;
+}
+:root {
+    --main-color: #19357b;
+    --news-buttom: 4px solid #428e3c;
+    --sport-buttom: 4px solid #e62e55;
+    --culture-buttom: 4px solid #f4ca25;
+    --lifestyle-buttom: 4px solid #4d97f3;
+    --input-color: #1f3f8c;
+}
+.underline-news {
+    border-bottom: var(--news-buttom);
+}
+.underline-sport {
+    border-bottom: var(--sport-buttom);
+}
+.underline-culture {
+    border-bottom: var(--culture-buttom);
+}
+.underline-lifestyle {
+    border-bottom: var(--lifestyle-buttom);
+}
+.underline-search {
+    border-bottom: 4px solid #fff;
 }
