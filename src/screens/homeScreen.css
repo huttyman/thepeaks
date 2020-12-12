@@ -97,6 +97,7 @@
 .top-feed-seemore.flex {
     margin-top: 20px;
     justify-content: space-between;
+    align-items: flex-end;
 }
 
 @media screen and (max-width: 767px) {

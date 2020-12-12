@@ -96,6 +96,7 @@ function HomeScreen(props) {
                                 key={newsList[5].id}
                                 data={newsList[5]}
                                 gridNews
+                                sub
                             />
                         </div>
 
@@ -104,6 +105,7 @@ function HomeScreen(props) {
                                 key={newsList[6].id}
                                 data={newsList[6]}
                                 gridNews
+                                sub
                             />
                         </div>
 
@@ -112,6 +114,7 @@ function HomeScreen(props) {
                                 key={newsList[7].id}
                                 data={newsList[7]}
                                 gridNews
+                                sub
                             />
                         </div>
                     </div>
